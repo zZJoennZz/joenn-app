@@ -310,7 +310,7 @@ const Home: NextPage = () => {
           </p>
         </section>
 
-        <section className="skills-section">
+        <section className="skills-section" id="tech">
           <h2>TECH STACK</h2>
           <div className="skills-showcase">
             <div className="skill-category">
@@ -375,7 +375,7 @@ const Home: NextPage = () => {
           </div>
         </section>
 
-        <section className="projects-section">
+        <section className="projects-section" id="portfolio">
           <h2>PORTFOLIO</h2>
           <div className="projects-grid">
             {projects.map((project, index) => (
@@ -388,22 +388,74 @@ const Home: NextPage = () => {
           <h2>PROFESSIONAL TIMELINE</h2>
           <div className="timeline">
             <div className="timeline-item">
-              <h3>Technical Virtual Assistant</h3>
-              <p className="company">Carmichael Psychology PLLC</p>
-              <p className="date">Aug 2024 - Present</p>
-              <p>Managing WordPress/HubSpot/Wix platforms with custom feature development</p>
-            </div>
-            <div className="timeline-item">
               <h3>Full Stack Developer</h3>
               <p className="company">shift101 Solutions</p>
               <p className="date">Jun 2020 - Present</p>
-              <p>ReactJS + Laravel development, client website design, Skills Camp applications</p>
+
+              <div style={{ paddingLeft: '1rem' }}>
+                <ul>
+                  <li>Designing the main website for the year 2023.</li>
+                  <li>Assisting with graphics and video editing for the Skills Camps.</li>
+                  <li>Developed small applications for Skills Camp using ReactJS and vanilla PHP for the backend.</li>
+                  <li>Developed an information management system for the company using ReactJS and Laravel Framework.</li>
+                  <li> Developing and designing websites for different clients using WordPress, Divi, etc.</li>
+                </ul>
+              </div>
             </div>
             <div className="timeline-item">
-              <h3>Full Stack Developer</h3>
-              <p className="company">Freelance</p>
+              <h3>Technical Virtual Assistant</h3>
+              <p className="company">Carmichael Psychology PLLC</p>
               <p className="date">May 2017 - Present</p>
-              <p>Banking systems, inventory management, restaurant e-commerce platforms</p>
+              <div style={{ paddingLeft: '1rem' }}>
+                <ul>
+                  <li>Day-to-day administrative tasks of the practice.</li>
+                  <li>Setting up and troubleshooting issues in different platforms we will be using.</li>
+                  <li>Managing content and maintaining the website using Wix, HubSpot and WordPress (with WooCommerce).</li>
+                  <li>Adding new custom features to the website if needed.</li>
+                  <li>Managing multiple accounts in QuickBooks for bookkeeping.</li>
+                  <li>Preparing multiple spreadsheets and reports.</li>
+                </ul>
+              </div>
+            </div>
+            <div className="timeline-item">
+              <h3>Freelance Full Stack Developer</h3>
+              <p className="company">Freelance</p>
+              <p className="date">Aug 2023 - Present</p>
+              <div style={{ paddingLeft: '1rem' }}>
+                <ul>
+                  <li>Developed an inventory management system for a national bank using ReactJS and Laravel 10.</li>
+                  <li>Built a specialized records management system for a national bank using ReactJS and Laravel 10.</li>
+                  <li>Designed and implemented the front-end of a restaurant website with e-commerce functionality using Next.js.</li>
+                </ul>
+              </div>
+            </div>
+            <div className="timeline-item">
+              <h3>Full Stack Web Developer</h3>
+              <p className="company">Bulacan State University</p>
+              <p className="date">Oct 2022 - Apr 2023</p>
+              <div style={{ paddingLeft: '1rem' }}>
+                <ul>
+                  <li>
+                    Developed the web app for the procurement and supply office for their procurement process and inventory tracking of the procured
+                    items using Laravel 9, PHP, JavaScript and MySQL.
+                  </li>
+                  <li>Applied the Simple Exponential Smoothing algorithm for item-utilization forecasting.</li>
+                  <li>Led a team of three by assigning development tasks.</li>
+                </ul>
+              </div>
+            </div>
+            <div className="timeline-item">
+              <h3>Web Developer</h3>
+              <p className="company">InsightClouds LLC.</p>
+              <p className="date">Apr 2016 - Mar 2019</p>
+              <div style={{ paddingLeft: '1rem' }}>
+                <ul>
+                  <li>Lead the development of the port of an accounting software.</li>
+                  <li>Maintained the MS Access DBMS accounting software.</li>
+                  <li>Developed custom modules for each clients' requests.</li>
+                  <li>Helped clients' technical issues with the software.</li>
+                </ul>
+              </div>
             </div>
           </div>
         </section>
