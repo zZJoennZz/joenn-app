@@ -263,7 +263,7 @@ const Home: NextPage = () => {
         <div className="container">
           <div className="header-content">
             <div className="core-info">
-              <span className="core-label">CORE SYSTEM v2.0.7</span>
+              <span className="core-label">CORE SYSTEM v6.14.96</span>
               <span className="status-online">● ONLINE</span>
             </div>
 
