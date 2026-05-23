@@ -405,7 +405,7 @@ const Home: NextPage = () => {
             <div className="timeline-item">
               <h3>Technical Virtual Assistant</h3>
               <p className="company">Carmichael Psychology PLLC</p>
-              <p className="date">May 2017 - Present</p>
+              <p className="date">May 2017 - Jan 2026</p>
               <div style={{ paddingLeft: '1rem' }}>
                 <ul>
                   <li>Day-to-day administrative tasks of the practice.</li>
