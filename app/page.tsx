@@ -203,7 +203,7 @@ const Home: NextPage = () => {
       image: '/images/lbsi.png',
       tech: ['ReactJS', 'Laravel 10', 'MySQL', 'Tailwind CSS'],
       demoUrl: 'https://www.behance.net/gallery/232435069/Secured-Supply-Management-System',
-      githubUrl: 'https://github.com/zZJoennZz/eRMS-app',
+      githubUrl: '',
     },
     {
       title: 'University Procurement System with Smart Inventory Forecasting',
