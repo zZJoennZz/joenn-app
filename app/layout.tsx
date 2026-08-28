@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import { Inter, Playfair_Display } from 'next/font/google';
-// @ts-expect-error Next.js processes this global stylesheet import at build time.
 import './globals.css';
 
 const inter = Inter({
